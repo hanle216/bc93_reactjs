@@ -1,0 +1,24 @@
+=== Buổi 1 ===
+- Event handle
+
+=== Buổi 2 ===
+- Render condition
+- State: re-render cho component nếu setState thay đổi giá trị
+
+=== Buổi 3 ===
+- List key
+- Communication:
++ Props: truyền data từ component cha -> component con
++ Lifting state up: truyền data từ component con -> component cha 
+
+=== Buổi 4 ====
+- Làm bài tập Shopping phone
+
+let arrA = [1,2,3] // [1,2,3]
+let arrB = arrA; // [1,2,3]
+arrB.push(4)
+// arrB: [1,2,3,4] va arrA: [1,2,3,4]
+// vì arrA bị tham chiếu
+
+=== Buổi 5 ====
+- Redux: tạo ra store để lưu trữ dữ liệu
