@@ -9,7 +9,7 @@ const ShoppingPhone = () => {
   const [listPhone, setListPhone] = useState(data);
   const [selectedPhone, setSelectdPhone] = useState(listPhone[0]);
   const [carts, setCarts] = useState([]);
-  console.log("data", data);
+  // console.log("data", data);
   /* Nhận dữ liệu từ ListPhone <= Phone */
   const handleDetail = (phone) => {
     setSelectdPhone(phone);

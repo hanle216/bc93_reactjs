@@ -24,14 +24,14 @@ import Communication from "./page/Communication";
 import ShoppingPhone from "./page/shopping-phone";
 import ThucHanhLayoutB1 from "./page/ThucHanhLayoutB1";
 import ThucHanhLayoutB2 from "./page/ThucHanhLayoutB2";
-
+import ShoppingShoe from "./page/shopping-shoe";
 
 createRoot(document.getElementById("root")).render(
   //<Homepage />
   //<Binding/>
   //<LayoutBuoi1/>
   // <ThucHanhLayoutB1/>,
-  <ThucHanhLayoutB2/>
+  //<ThucHanhLayoutB2/>
   //<EventHandler />
   // <RenderCondition />
   //<State />,
@@ -40,4 +40,5 @@ createRoot(document.getElementById("root")).render(
   // <LayoutList />,
   // <Communication />,
   //<ShoppingPhone />,
+  <ShoppingShoe />,
 );
